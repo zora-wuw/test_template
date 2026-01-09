@@ -32,10 +32,12 @@ templates_path = ['_templates']
 html_theme = 'furo'
 
 # furo logo
-html_logo = ["figs"]
+html_logo = ["figs/logo-light.png"]
 html_theme_options = {
-    "light_logo": "logo-light.png",
-    "dark_logo": "logo-dark.png",
+    "light_css_variables": {
+        "color-brand-primary": "#324159",
+        "color-brand-content": "#ffa846",
+    },
 }
 
 # -- Options for EPUB output
