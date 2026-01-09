@@ -36,6 +36,7 @@ html_static_path = ["_static"]
 html_theme_options = {
     "source_repository": "https://github.com/zora-wuw/test_template",
     "source_branch": "main",
+    "source_directory": "docs/source",
     "top_of_page_buttons": ["view"],
     "light_logo": "logo-light.png",
     "dark_logo": "logo-dark.png",
