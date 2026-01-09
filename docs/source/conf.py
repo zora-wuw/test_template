@@ -32,7 +32,7 @@ templates_path = ['_templates']
 html_theme = 'furo'
 
 # furo logo
-html_static_path = ["docs/source/figs"]
+html_logo = ["figs"]
 html_theme_options = {
     "light_logo": "logo-light.png",
     "dark_logo": "logo-dark.png",
