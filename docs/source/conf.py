@@ -36,7 +36,11 @@ html_logo = "figs/logo-light.png"
 html_theme_options = {
     "light_css_variables": {
         "color-brand-primary": "#324159",
-        "color-brand-content": "#ffa846",
+        "color-brand-content": "#57b0f2",
+    },
+    "dark_css_variables": {
+        "color-brand-primary": "#b6c0d1",  
+        "color-brand-content": "#57b0f2", 
     },
 }
 
