@@ -32,7 +32,7 @@ templates_path = ['_templates']
 html_theme = 'furo'
 
 # furo logo
-html_logo = ["figs/logo-light.png"]
+html_logo = "figs/logo-light.png"
 html_theme_options = {
     "light_css_variables": {
         "color-brand-primary": "#324159",
