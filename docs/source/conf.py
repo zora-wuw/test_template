@@ -32,13 +32,13 @@ templates_path = ['_templates']
 html_theme = 'furo'
 
 # furo logo
-html_logo = "figs/logo-light.png"
+html_static_path = ["_static"]
 html_theme_options = {
-    "source_repository": "https://github.com/zora-wuw/test_template.git",
+    "source_repository": "https://github.com/zora-wuw/test_template",
     "source_branch": "main",
-    "source_directory": "docs/",
     "top_of_page_buttons": ["view"],
-    
+    "light_logo": "logo-light.png",
+    "dark_logo": "logo-dark.png",
     "light_css_variables": {
         "color-brand-primary": "#324159",
         "color-brand-content": "#57b0f2",
