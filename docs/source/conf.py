@@ -2,7 +2,8 @@
 
 # -- Project information
 
-project = 'Name of the Tutorial'
+# Title can be changed in the index.rst file
+# project = 'Name of the Tutorial'
 copyright = '2026, National Computational Infrastructure'
 author = 'NCI Training'
 
